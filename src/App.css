@@ -1,13 +1,23 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: #b92b27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background: #b92b27;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
   position: fixed;
   top: 0;
@@ -104,9 +114,10 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 50%;
   margin: auto;
+  /* align-self: auto; */
 }
 
 .social-links i {
